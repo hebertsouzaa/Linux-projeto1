@@ -64,18 +64,6 @@ echo "FIM"
 
 
 
-#Criando os Usuarios
-echo "Adicionar usuário: "
-read usuario
-adduser $usuario
-
-echo "senha do usuario $usuario: "
-passwd $usuario
-
-#adicionando ao grupo
-groupadd $usuario 
-
-gpasswd -a $usuário GRP_ADM
 
 
 
