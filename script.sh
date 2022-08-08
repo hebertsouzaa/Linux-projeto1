@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #Criando os Diretorios
 echo "Criando os Diretorios"
